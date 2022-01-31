@@ -59,9 +59,9 @@ namespace DIS_Assignmnet1_SPRING_2022
             Console.WriteLine("Resultant string are reversing the prefix:{0}", reversed_string);
             Console.WriteLine();
 
-            }
+        }
 
-            private static string RemoveVowels(string s)
+        private static string RemoveVowels(string s)
             {
                 try
                 {
@@ -182,7 +182,6 @@ namespace DIS_Assignmnet1_SPRING_2022
                 }
                 return diagsum;
 
-                return 0;
             }   //end of try
             catch (Exception e)
             {
